@@ -14,8 +14,8 @@ class TWcoder
 {
 
 private:	// User declarations
-        unsigned int g_baselen;    //Êı¾İÔ´µÄ³¤¶È
-        unsigned int g_extlen;     //Êä³öÊı¾İµÄ³¤¶È
+        unsigned int g_baselen;    //æ•°æ®æºçš„é•¿åº¦
+        unsigned int g_extlen;     //è¾“å‡ºæ•°æ®çš„é•¿åº¦
 
 
 
@@ -24,7 +24,7 @@ public:		// User declarations
         __fastcall ~TWcoder();
 
         unsigned int __fastcall coder(unsigned char *in_buf,unsigned int len,unsigned char* out_buf,unsigned char channel);
-        int __fastcall TWcoder::decoder(unsigned char *pbuf ,unsigned char *in_buf,unsigned int len) ;
+        int __fastcall decoder(unsigned char *pbuf ,unsigned char *in_buf,unsigned int len) ;
 
 
 
